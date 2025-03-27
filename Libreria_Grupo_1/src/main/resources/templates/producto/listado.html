@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org"
-      xmlns="http://www.w3.org/199/xhtml">
+      xmlns="http://www.w3.org/1999/xhtml">
     <head th:replace="~{layout/plantilla :: head}">
-        <title>TechShop</title>
+        <title>TechShop - Modern UI</title>
     </head>
-    <body>
-         <header th:replace="~{layout/plantilla :: header}"/>
+    <body class="bg-light">
+         <header th:replace="~{layout/plantilla :: header}" class="shadow-sm bg-white"/>
          
-         <section th:replace="~{producto/fragmentos :: botonesAgregar}"/>
-         <section th:replace="~{producto/fragmentos :: agregarProducto}"/>
-         <section th:replace="~{producto/fragmentos :: listadoProductos}"/>
+         <main class="container py-4">
+             <section th:replace="~{producto/fragmentos :: botonesAgregar}" class="mb-4"/>
+             <section th:replace="~{producto/fragmentos :: agregarProducto}"/>
+             <section th:replace="~{producto/fragmentos :: listadoProductos}" class="mt-4"/>
+         </main>
          
-         <footer th:replace="~{layout/plantilla :: footer}"/>
-    </body>
+         <footer th:replace="~{layout/plantilla :: footer}" class="bg-dark text-white text-center py-3 mt-5"/>
+    </body>
 </html>
