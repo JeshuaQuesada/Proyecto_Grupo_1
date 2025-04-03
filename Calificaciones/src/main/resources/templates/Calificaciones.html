@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Calificaciones</title>
+</head>
+<body>
+    <h1>Historial de Calificaciones</h1>
+    <table border="1">
+        <tr>
+            <th>Usuario</th>
+            <th>Libro</th>
+            <th>Puntuación</th>
+            <th>Comentario</th>
+        </tr>
+        <tr th:each="calificacion : ${calificaciones}">
+            <td th:text="${calificacion.usuario}"></td>
+            <td th:text="${calificacion.libro}"></td>
+            <td th:text="${calificacion.puntuacion}"></td>
+            <td th:text="${calificacion.comentario}"></td>
+        </tr>
+    </table>
+    <button onclick="location.href='#calificaciones'">Ir a Calificaciones</button>
+</body>
+</html>
