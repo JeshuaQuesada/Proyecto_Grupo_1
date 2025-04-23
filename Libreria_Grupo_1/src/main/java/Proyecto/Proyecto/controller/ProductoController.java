@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Portafolio.Portafolio.controller;
+package Proyecto.Proyecto.controller;
 
 
-import Portafolio.Portafolio.domain.Producto;
-import Portafolio.Portafolio.service.CategoriaService;
-import Portafolio.Portafolio.service.ProductoService;
-import Portafolio.Portafolio.service.impl.FirebaseStorageServiceImpl;
+import Proyecto.Proyecto.domain.Producto;
+import Proyecto.Proyecto.service.CategoriaService;
+import Proyecto.Proyecto.service.ProductoService;
+import Proyecto.Proyecto.service.impl.FirebaseStorageServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

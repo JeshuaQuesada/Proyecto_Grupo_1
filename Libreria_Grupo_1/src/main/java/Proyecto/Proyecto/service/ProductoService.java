@@ -2,9 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
-package Portafolio.Portafolio.service;
+package Proyecto.Proyecto.service;
 
-import Portafolio.Portafolio.domain.Producto;
+import Proyecto.Proyecto.domain.Producto;
 import java.util.List;
 
 public interface ProductoService {

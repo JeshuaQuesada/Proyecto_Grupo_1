@@ -2,11 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Portafolio.Portafolio.service.impl;
+package Proyecto.Proyecto.service.impl;
 
-import Portafolio.Portafolio.dao.ProductoDao;
-import Portafolio.Portafolio.domain.Producto;
-import Portafolio.Portafolio.service.ProductoService;
+import Proyecto.Proyecto.dao.ProductoDao;
+import Proyecto.Proyecto.domain.Producto;
+import Proyecto.Proyecto.service.ProductoService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

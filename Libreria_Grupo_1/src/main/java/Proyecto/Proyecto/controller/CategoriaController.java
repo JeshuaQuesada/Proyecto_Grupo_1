@@ -1,8 +1,8 @@
-package Portafolio.Portafolio.controller;
+package Proyecto.Proyecto.controller;
 
-import Portafolio.Portafolio.domain.Categoria;
-import Portafolio.Portafolio.service.CategoriaService;
-import Portafolio.Portafolio.service.impl.FirebaseStorageServiceImpl;
+import Proyecto.Proyecto.domain.Categoria;
+import Proyecto.Proyecto.service.CategoriaService;
+import Proyecto.Proyecto.service.impl.FirebaseStorageServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
