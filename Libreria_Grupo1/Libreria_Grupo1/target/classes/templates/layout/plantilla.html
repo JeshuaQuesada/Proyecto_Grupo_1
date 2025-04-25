@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>La Librería</title>
+    <link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet"/>
+    <link th:href="@{/webjars/font-awesome/css/all.css}" rel="stylesheet"/>
+    <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+    <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" th:href="@{/}">La libreria</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Libros</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input type="text" class="form-control search-bar" placeholder="Buscar"/>
+                    <i class="fas fa-shopping-cart cart-icon"></i>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN BACKGROUND (optional text) -->
+    <div class="container text-center" style="padding: 150px 0;">
+        <!-- Aquí podrías agregar un mensaje o simplemente dejarlo visual -->
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container text-white">
+            <div class="row text-start">
+                <div class="col-md-4 footer-section">
+                    <div class="footer-title">Acerca de</div>
+                    <p>Nosotros<br>Reglamento<br>Términos y condiciones</p>
+                </div>
+                <div class="col-md-4 footer-section">
+                    <div class="footer-title">Contáctenos</div>
+                    <p><i class="fab fa-whatsapp"></i> WhatsApp<br>(506) 8426-0363</p>
+                </div>
+                <div class="col-md-4 footer-section">
+                    <div class="footer-title">Redes Sociales</div>
+                    <p><i class="fab fa-instagram"></i> Instagram<br><i class="fab fa-facebook"></i> Facebook</p>
+                </div>
+            </div>
+            <div class="text-center mt-4 brand-footer">La libreria</div>
+        </div>
+        <div class="derechos text-white">Todos los derechos reservados</div>
+    </footer>
+</body>
+</html>
