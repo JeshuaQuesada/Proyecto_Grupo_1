@@ -1,0 +1,43 @@
+!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/199/xhtml">
+    <head th:replace="~{layout/plantilla :: head}">
+        <title>TechShop - Editar Producto</title>
+        <style>
+            body {
+                background-color: #f8f9fa;
+                font-family: Arial, sans-serif;
+            }
+            .container {
+                margin-top: 20px;
+                padding: 20px;
+                background: #ffffff;
+                border-radius: 8px;
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            }
+            header {
+                background: #343a40;
+                color: white;
+                padding: 15px 0;
+                text-align: center;
+                box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            }
+            footer {
+                background: #343a40;
+                color: white;
+                text-align: center;
+                padding: 15px 0;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header th:replace="~{layout/plantilla :: header}"/>
+
+        <div class="container">
+            <section th:replace="~{producto/fragmentos :: editarProducto}"/>
+        </div>
+
+        <footer th:replace="~{layout/plantilla :: footer}"/>
+    </body>
+</html>
