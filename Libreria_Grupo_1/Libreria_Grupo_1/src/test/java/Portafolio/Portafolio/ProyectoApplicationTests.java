@@ -1,10 +1,10 @@
-package Portafolio.Portafolio;
+package Libreria.Libreria;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PortafolioJeshuaApplicationTests {
+class ProyectoApplicationTests {
 
 	@Test
 	void contextLoads() {
